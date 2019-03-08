@@ -13,5 +13,5 @@ delay(6500);
 }
 void delay(unsigned int x)
 {
-while(x++);
+while(x--);
 }

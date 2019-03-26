@@ -20,7 +20,7 @@ void quicksort(int a[],int low,int high)
     if(low<=high)
         return;
     i=low+1;
-    j=high;
+    j=low;
     while(i<=j)
     {
         while(a[i]<a[key])

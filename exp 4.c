@@ -14,7 +14,7 @@ void main()
         printf("%d",a[k]);
     }
 }
-void quicksort(int a[],int low,int high)
+void quicksort(int a[],int low,int low)
 {
     int key,i,j;
     if(low<=high)

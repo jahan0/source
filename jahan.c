@@ -4,7 +4,7 @@ int main()
 int a,b,c;
 printf("Enter the value of a and b);
 scanf("&a,&b",a,b);
-c=b-a;
+c=b+a;
 printf("addition of two numbers is ",c);
 return 0;
 }
